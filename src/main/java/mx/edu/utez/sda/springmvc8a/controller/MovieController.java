@@ -36,7 +36,7 @@ public class MovieController {
         return "movie/comedia";
     }
 
-    // Hola
+    // Hola otra vez
     @Secured({"ROLE_ADULT", "ROLE_CHILD"})
     @GetMapping("/movie/educativa")
     public String educativaView() {
